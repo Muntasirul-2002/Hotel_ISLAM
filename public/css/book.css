@@ -1,0 +1,48 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+}
+
+/* Form styles */
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Label styles */
+label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
